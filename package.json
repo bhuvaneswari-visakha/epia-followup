@@ -1,0 +1,16 @@
+{
+  "name": "epia-followup",
+  "version": "1.0.0",
+  "description": "Patient follow-up system: REST API (Express + SQLite) and AI-assisted WhatsApp draft review workflow",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^4.21.0"
+  }
+}
